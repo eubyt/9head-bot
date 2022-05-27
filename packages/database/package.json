@@ -1,0 +1,19 @@
+{
+  "name": "@9head/database",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "lib": "dist"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --declaration --project tsconfig.json"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.6"
+  },
+  "devDependencies": {}
+}

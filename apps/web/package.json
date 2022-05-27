@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@9head/core-api": "*",
+    "@9head/database": "*",
+    "axios": "^0.27.2",
+    "jsonwebtoken": "^8.5.1",
+    "next": "12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.34",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.4",
+    "eslint-config-next": "12.1.6"
+  }
+}

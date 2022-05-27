@@ -1,0 +1,88 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  background-color: #18191c;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+  min-width: 500px;
+  min-height: 500px;
+  flex-direction: column;
+}
+
+.main-head {
+  border-bottom: 1px solid #2f3136;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-connections {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.box {
+  display: flex;
+  margin: 0.25rem;
+}
+
+.full {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: rgb(226, 226, 226);
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(185, 184, 184);
+}
+
+.name-connection {
+  margin-right: 1rem;
+  align-self: center;
+}
+
+.name-connection > span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(226, 226, 226);
+}
+
+.button-connection {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(226, 226, 226);
+  background-color: #048848;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-desconnect {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(226, 226, 226);
+  background-color: #ab1300;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

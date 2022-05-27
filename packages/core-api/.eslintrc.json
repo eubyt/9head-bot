@@ -1,0 +1,3 @@
+{
+  "extends": ["@9head/eslint-config"]
+}

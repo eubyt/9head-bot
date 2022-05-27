@@ -1,0 +1,18 @@
+{
+  "name": "9headbot",
+  "version": "1.0.0",
+  "description": "Bot feito para administrar servidores de amigos e o da 9Head",
+  "author": "eubyt",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ]
+  },
+  "devDependencies": {
+    "@9head/eslint-config": "*",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": ["@9head/eslint-config", "next", "next/core-web-vitals"],
+  "settings": {
+    "next": {
+      "rootDir": "apps/web/"
+    }
+  },
+  "parserOptions": {
+    "project": "tsconfig.json"
+  }
+}

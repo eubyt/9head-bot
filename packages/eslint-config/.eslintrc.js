@@ -1,0 +1,50 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2020: true,
+    node: true,
+    jest: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'prettier',
+    'airbnb',
+    'airbnb-typescript',
+    'plugin:jsx-a11y/recommended',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
+    project: ['./packages/*/tsconfig.json', './apps/*/tsconfig.json'],
+  },
+  plugins: ['prettier', '@typescript-eslint', 'react', 'jsx-a11y'],
+  rules: {
+    'prettier/prettier': 'error',
+    'space-before-function-paren': 'off',
+    'no-inline-comments': 1,
+    'import/extensions': 'off',
+    'object-curly-newline': 'off',
+    '@typescript-eslint/indent': 'off',
+    'import/no-unresolved': 'off',
+    'react/function-component-definition': 'off',
+    'operator-linebreak': 'off',
+    semi: 'error',
+    'no-console': 'error',
+    'no-unused-vars': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'arrow-parens': 'off',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'function-paren-newline': 'off',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+};
